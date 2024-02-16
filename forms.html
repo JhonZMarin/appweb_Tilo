@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="uft-8">
+    <title>Formulario html</title>
+</head>
+
+<body>
+    <h1>FORMULARIOS</h1>
+    <form accept="#" method="post">
+        <div>
+            <label>Primer Nombre: </label>
+            <input type="text" name="primerNombre" maxlength="10" / placeholder="Ingrese su Primer Nombre" value="Jhon"
+                required>
+        </div>
+        <div>
+            <label>Contraseña: </label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label>Edad: </label>
+            <input type="number" name="edad" min="1" max="120">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="example@email.com">
+        </div>
+        <div>
+            <label>Archivo</label>
+            <input type="file" name="archivo" multiple>
+        </div>
+        <div>
+            <label>Color</label>
+            <input type="color" name="color">
+        </div>
+        <div>
+            <label>Fecha</label>
+            <input type="date" name="fecha">
+        </div>
+        <div>
+            <label>Fecha Hora</label>
+            <input type="datetime-local" name="fechahora">
+        </div>
+        <div>
+            <label>Ciudad</label>
+            <select name="ciudad">
+                <option value="">Seleccione una Ciudad</option>
+                <option value="1">Tunja</option>
+                <option value="2">Duitama</option>
+                <option value="3">Sogamoso</option>
+            </select>
+        </div>
+        <div>
+            <label>Estado Civil</label>
+            <label>
+                <input type="radio" name="estadoCivil" value="a">
+                Soltero/a
+            </label>
+            <label>
+                <input type="radio" name="estadoCivil" value="b">
+                Casado/a
+            </label>
+            <label>
+                <input type="radio" name="estadoCivil" value="c" checked>
+                Ninguno
+            </label>
+        </div>
+        <div>
+            <label>Pasatiempos</label>
+            <label>
+                <input type="checkbox" name="deportes">
+                Deportes
+            </label>
+            <label>
+                <input type="checkbox" name="videojuegos">
+                VideoJuegos
+            </label>
+            <label>
+                <input type="checkbox" name="lectura" checked>
+                Lectura
+            </label>
+        </div>
+        <div>
+            <label>justifique</label>
+            <textarea name="justifique" rows="10" cols="35">aaaaaaaaaa</textarea>
+        </div>
+        <div>
+            <input type="reset" value="limpiar">
+            
+            <button type="reset ">Limpiar</button>
+        </div>
+        <div>
+            <input type="submit" value="enviar">
+            
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+
+</html>
