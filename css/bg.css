@@ -1,0 +1,8 @@
+header{
+    width: 100vw;
+    height: 250px;
+    background-image:url('../css/resource/fonfos/a.png') ,url('https://th.bing.com/th/id/R.61d7de60616264c4d221abbe5967936c?rik=IhBDoIKOtkB8uw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-zaXI0DDFGow%2fUfWFzyzMGAI%2fAAAAAAAALFk%2fLH3HX32hOeY%2fs1600%2fNoche%2bdel%2bdia%2b28%2bde%2bjulio%2bde%2b2013.jpg&ehk=b650xVObKkilDiYe%2faGdThmKC%2f0YotI6Gl7fx42EIe0%3d&risl=&pid=ImgRaw&r=0');
+    background-size: 100px, cover;
+    background-repeat: no-repeat;
+    background-position: 100px 103px 120px;
+}

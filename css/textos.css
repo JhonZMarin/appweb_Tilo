@@ -1,0 +1,14 @@
+.titulo{
+  font-size: 24px;
+  color: #ff0000;
+  font-family: "Fredoka", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  text-decoration: overline;
+  text-shadow: 1px 1px 1px #0000ff;
+  text-transform: uppercase;
+  text-indent: 50px;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+}
